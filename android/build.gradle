@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 31
-    namespace "com.example.sms_advanced"
+    namespace "com.elyudde.sms_advanced"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -43,6 +43,7 @@ android {
 
     defaultConfig {
         minSdkVersion 23
+        namespace "com.elyudde.sms_advanced"
     }
 }
 
